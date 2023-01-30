@@ -5,10 +5,9 @@ img {
 
 .container{
   width: 100vw;
-  height: 50vh;
   display: grid;
-  grid-template-columns: repeat(3,auto);
-  /* grid-template-columns: minmax(100px,350px) 1fr minmax(100px, 350px) ; */
+  /* grid-template-columns: repeat(3,auto); */
+  grid-template-columns: minmax(100px,350px) 1fr minmax(100px, 350px) ;
   gap: 20px;
 
 }
